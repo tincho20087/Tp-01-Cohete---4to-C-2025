@@ -15,4 +15,5 @@ public class CoheteScript : MonoBehaviour
     {
         transform.Translate(0, 0.1f, 0);
     }
+    
 }
