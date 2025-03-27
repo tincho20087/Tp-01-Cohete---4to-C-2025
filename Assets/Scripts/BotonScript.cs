@@ -5,12 +5,13 @@ using UnityEngine;
 public class BotonScript : MonoBehaviour
 {
     public GameObject botonGO;
-
+    public CoheteScript cohetescript;
 
     private void OnMouseDown()
     {
         botonGO.SetActive(false);
-        Debug.Log("Click");
+        cohetescript.despegue();
+        
     }
 
     private void OnMouseUp()
